@@ -1,0 +1,25 @@
+{
+  "extends": ["config:base", ":preserveSemverRanges"],
+  "timezone": "Asia/Tokyo",
+  "labels": ["renovate"],
+  "schedule": "after 10pm on sunday",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "ESLint and Prettier",
+      "packageNames": ["eslint", "prettier"],
+      "packagePatterns": [
+        "^@nuxtjs/eslint-config",
+        "^eslint-config-",
+        "^eslint-plugin-",
+        "^@typescript-eslint"
+      ],
+      "enabled": false
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["Security"]
+  }
+}
