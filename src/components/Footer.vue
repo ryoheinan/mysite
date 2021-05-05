@@ -7,7 +7,7 @@
 <script lang="ts">
   import { defineComponent, ref, computed } from 'vue'
   export default defineComponent({
-    name: 'HelloWorld',
+    name: 'Footer',
     setup: () => {
       const nowYear = computed(() => new Date().getFullYear())
       const year = ref(nowYear)
