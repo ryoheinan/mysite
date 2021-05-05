@@ -2,6 +2,7 @@
   <Header />
   <main>
     <Introduction />
+    <Work />
   </main>
   <Footer />
 </template>
@@ -11,6 +12,7 @@
   import Introduction from './components/Introduction.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
+  import Work from './components/Work.vue'
 
   export default defineComponent({
     name: 'App',
@@ -18,6 +20,7 @@
       Introduction,
       Header,
       Footer,
+      Work,
     },
   })
 </script>
