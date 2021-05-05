@@ -3,7 +3,7 @@
     <h2>Introduction</h2>
     <p>
       Hello! I'm Ryohei Nagasawa!<br />
-      Currently, I'm a student at
+      Currently, I'm a Japanese student at
       <a href="https://www.iniad.org/" target="_blank">INIAD</a> and I'm
       learning computer science there.<br />
       Nowadays, I'm interested in WEB frontend and UI/UX.
