@@ -1,4 +1,4 @@
-interface Work {
+export interface Work {
   title: string
   description?: string
   technology: string
