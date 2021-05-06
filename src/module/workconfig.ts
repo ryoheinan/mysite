@@ -14,7 +14,7 @@ interface Urls {
 export const workData: Work[] = [
   {
     title: 'Personal website',
-    description: 'This website.',
+    description: 'This website!!',
     technology: 'Vue 3, TypeScript',
     category: 'Hobby',
     urls: [
