@@ -26,6 +26,13 @@
 </script>
 
 <style lang="scss">
+  @import '@primer/css/support/index.scss';
+  @import '@primer/css/base/index.scss';
+  @import '@primer/css/utilities/index.scss';
+  @import '@primer/css/box/index.scss';
+  @import '@primer/css/buttons/index.scss';
+  @import '@primer/css/labels/index.scss';
+
   body {
     margin: 0;
   }
@@ -41,5 +48,13 @@
 
   main {
     width: min(80%, 992px);
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
   }
 </style>
