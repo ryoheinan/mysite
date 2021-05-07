@@ -1,0 +1,55 @@
+<template>
+  <div class="Box px-3 mb-3 pt-5 pb-3">
+    <div class="flex-auto">
+      <h3>{{ workData.title }}</h3>
+      <p>
+        Powered by <span class="strong">{{ workData.technology }}</span>
+      </p>
+      <p class="text-gray-light">{{ workData.description }}</p>
+
+      <span v-if="workData.category == 'Hobby'" class="Label Label--success"
+        >Hobby</span
+      >
+      <span
+        v-else-if="workData.category == 'School'"
+        class="Label mt-1 Label--info"
+        >School</span
+      >
+      <span
+        v-else-if="workData.category == 'Work'"
+        class="Label mt-1 Label--warning"
+        >Work</span
+      >
+    </div>
+    <div class="text-right">
+      <button type="button" class="btn btn-primary" name="button">View</button>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+  import { defineComponent, PropType } from 'vue'
+  import { Work } from '../module/workconfig'
+
+  export default defineComponent({
+    name: 'WorkCard',
+    props: {
+      textLeft: {
+        type: Boolean,
+        default: false,
+        required: false,
+      },
+      workData: {
+        type: Object as PropType<Work>,
+        required: true,
+      },
+    },
+  })
+</script>
+
+<style lang="scss" scoped>
+  .strong {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+</style>
