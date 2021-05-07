@@ -27,7 +27,7 @@ export const workData: Work[] = [
   {
     title: 'Morphomusic',
     description:
-      'I and my friend, Taito joined hackathon in the spring of 2021. We developed this web app for the hackathon.',
+      'I and my friend, Taito joined hackathon in the spring of 2021. We developed this web app for it.',
     technology: 'Nuxt.js, LIFF (LINE Front-end Framework), Django',
     category: 'Hobby',
     urls: [
@@ -43,6 +43,7 @@ export const workData: Work[] = [
   },
   {
     title: 'Game : The Tortoise and the Hare',
+    description: 'A famous story, "The Tortoise and the Hare"-themed PC game.',
     technology: 'Unity, C#',
     category: 'School',
     urls: [
@@ -58,7 +59,7 @@ export const workData: Work[] = [
   },
   {
     title: 'Sugawara Soroban website',
-    description: '',
+    description: 'This is my first job.',
     technology: 'Nuxt.js',
     category: 'Work',
     urls: [
@@ -70,7 +71,8 @@ export const workData: Work[] = [
   },
   {
     title: 'UniWeather',
-    technology: 'Vue 2 (CDN)',
+    description: 'Universal design weather forecast site',
+    technology: 'Vue 2',
     category: 'School',
     urls: [
       {
