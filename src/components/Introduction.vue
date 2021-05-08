@@ -19,7 +19,7 @@
           </li>
           <li>
             Pop<br />
-            - Gen Hoshino, Sakanaction, Sheena Ringo...
+            - Gen Hoshino, Hikaru Utada, Sakanaction...
           </li>
         </ul>
       </li>
