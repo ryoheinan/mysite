@@ -9,10 +9,10 @@
       Nowadays, I'm interested in WEB frontend and UI/UX.
     </p>
     <h3>Hobby</h3>
-    <ul>
-      <li>Programming</li>
+    <ul class="hobby">
+      <li><span class="f4">Programming</span></li>
       <li>
-        Music
+        <span class="f4">Music</span>
         <ul>
           <li>
             Electronic / Dance<br />- Yasutaka Nakata, Perfume, YMO, Justice...
@@ -24,7 +24,7 @@
         </ul>
       </li>
       <li>
-        Movies
+        <span class="f4">Movies</span>
         <ul>
           <li>
             All genres except for horror<br />- Star Wars, Back to the Future,
@@ -81,4 +81,14 @@
   })
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  ul {
+    list-style: none;
+  }
+
+  .hobby {
+    ul {
+      margin-left: 1rem;
+    }
+  }
+</style>
