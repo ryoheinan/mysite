@@ -48,7 +48,7 @@
 
   main {
     width: min(80%, 992px);
-
+    margin-bottom: 3rem;
     h2 {
       font-size: 1.8rem;
     }
