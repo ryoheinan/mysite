@@ -2,7 +2,7 @@
   <footer class="text-center">
     <p>
       Favicon image by Twitter is licensed under CC-BY 4.0 <br />
-      &copy;{{ year }}, Ryohei Nagasawa All Rights Reserved.
+      &copy;{{ year }}, Ryohei Nagasawa Some Rights Reserved.
     </p>
   </footer>
 </template>
