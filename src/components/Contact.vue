@@ -2,7 +2,7 @@
   <section>
     <Blankslate
       btn-text="Contact me"
-      btn-url="#"
+      btn-url="https://forms.gle/NC4t6RMXaKtE2voe6"
       description="This contact form use Google Forms"
     />
   </section>
