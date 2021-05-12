@@ -3,6 +3,7 @@
   <main>
     <Introduction />
     <Work />
+    <Contact />
   </main>
   <Footer />
 </template>
@@ -13,6 +14,7 @@
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
   import Work from './components/Work.vue'
+  import Contact from './components/Contact.vue'
 
   export default defineComponent({
     name: 'App',
@@ -21,6 +23,7 @@
       Header,
       Footer,
       Work,
+      Contact,
     },
   })
 </script>
@@ -48,7 +51,6 @@
 
   main {
     width: min(80%, 992px);
-    margin-bottom: 3rem;
     h2 {
       font-size: 1.8rem;
     }
