@@ -3,7 +3,7 @@ export interface Work {
   description?: string
   technology: string
   category: 'School' | 'Hobby' | 'Work'
-  urls: Array<Urls>
+  urls?: Array<Urls>
 }
 
 interface Urls {
@@ -19,8 +19,8 @@ export const workData: Work[] = [
     category: 'Hobby',
     urls: [
       {
-        text: 'GitHub Repository',
-        url: '#',
+        text: 'Source code',
+        url: 'https://github.com/ryoheinan/mysite',
       },
     ],
   },
@@ -32,11 +32,11 @@ export const workData: Work[] = [
     category: 'Hobby',
     urls: [
       {
-        text: 'GitHub Repository (client app)',
+        text: 'Source code (client)',
         url: 'https://github.com/ryoheinan/MorphoMusicClient',
       },
       {
-        text: 'GitHub Repository (backend app)',
+        text: 'Source code (backend)',
         url: 'https://github.com/Taito-Code/MorphoMusicBackend',
       },
     ],
@@ -49,11 +49,11 @@ export const workData: Work[] = [
     urls: [
       {
         text: 'Presentation slides (Japanese)',
-        url: '#',
+        url: 'https://1drv.ms/b/s!AgBmQsd2G23jgoACQwDC63oqIqj14g',
       },
       {
         text: 'Website',
-        url: '#',
+        url: 'https://usakame.netlify.app/',
       },
     ],
   },
@@ -71,14 +71,16 @@ export const workData: Work[] = [
   },
   {
     title: 'UniWeather',
-    description: 'Universal design weather forecast site',
+    description: 'Universal design weather forecast site.',
     technology: 'Vue 2',
     category: 'School',
+    /*
     urls: [
       {
-        text: 'GitHub Repository',
+        text: 'Source code',
         url: '#',
       },
     ],
+    */
   },
 ]
