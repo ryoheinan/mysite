@@ -3,7 +3,7 @@
     <a
       v-if="btnText"
       :href="btnUrl"
-      class="btn btn-primary mb-1"
+      class="btn-mktg btn-primary-mktg mb-1"
       role="button"
       target="_blank"
       rel="noopener noreferrer nofollow"
@@ -38,4 +38,5 @@
 
 <style lang="scss" scoped>
   @import '@primer/css/blankslate/index.scss';
+  @import '@primer/css/marketing/index.scss';
 </style>
