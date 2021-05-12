@@ -1,8 +1,8 @@
 <template>
-  <div class="Box px-3 mb-3 pt-5 pb-3">
+  <div class="Box px-3 mb-3 pt-5 pb-1">
     <div class="flex-auto">
       <h3>{{ workData.title }}</h3>
-      <p>
+      <p class="mb-1">
         Powered by <span class="strong">{{ workData.technology }}</span>
       </p>
       <p class="text-gray-light">{{ workData.description }}</p>
@@ -21,8 +21,17 @@
         >Work</span
       >
     </div>
-    <div class="text-right">
-      <button type="button" class="btn btn-primary" name="button">View</button>
+    <div class="mt-3 text-right">
+      <a
+        v-for="urlItem in workData.urls"
+        :key="urlItem.text"
+        :href="urlItem.url"
+        class="btn ml-2 mb-2"
+        role="button"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        >{{ urlItem.text }}</a
+      >
     </div>
   </div>
 </template>
