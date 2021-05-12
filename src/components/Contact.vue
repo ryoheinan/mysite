@@ -3,7 +3,7 @@
     <Blankslate
       btn-text="Contact me"
       btn-url="#"
-      description="This contact form use Google Form"
+      description="This contact form use Google Forms"
     />
   </section>
 </template>
