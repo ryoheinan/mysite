@@ -49,7 +49,8 @@ export const workData: Work[] = [
     urls: [
       {
         text: 'Presentation slides (Japanese)',
-        url: 'https://1drv.ms/b/s!AgBmQsd2G23jgoACQwDC63oqIqj14g',
+        url:
+          'https://drive.google.com/file/d/1xxH5_Qy7aW5y2vZaHA58JObgFMvNRKwm/view?usp=sharing',
       },
       {
         text: 'Website',
