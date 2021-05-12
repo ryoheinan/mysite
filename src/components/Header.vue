@@ -36,7 +36,7 @@
 <style lang="scss" scoped>
   .link {
     text-align: right;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
   }
   h1 {
     margin-top: 0;
