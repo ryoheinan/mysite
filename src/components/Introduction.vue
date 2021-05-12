@@ -4,8 +4,13 @@
     <p>
       Hello! I'm Ryohei Nagasawa!<br />
       Currently, I'm a Japanese student at
-      <a href="https://www.iniad.org/" target="_blank">INIAD</a> and I'm
-      learning computer science there.<br />
+      <a
+        href="https://www.iniad.org/"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        >INIAD</a
+      >
+      and I'm learning computer science there.<br />
       Nowadays, I'm interested in WEB frontend and UI/UX.
     </p>
     <h3>Hobby</h3>
