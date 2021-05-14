@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: Avenir, Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+a{
+  color: rgb(36, 41, 46);
+}
