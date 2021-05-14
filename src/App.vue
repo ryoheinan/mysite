@@ -42,7 +42,7 @@
   }
 
   #app {
-    font-family: Avenir, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Avenir, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
