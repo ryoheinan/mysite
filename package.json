@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint:fix": "eslint --ext \".js,.vue,.ts\" --ignore-path .gitignore .",
+    "lint": "yarn lint:fix"
   },
   "dependencies": {
     "@primer/css": "^16.3.0",
