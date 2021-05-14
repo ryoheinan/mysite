@@ -53,14 +53,14 @@ export const workData: Work[] = [
           'https://drive.google.com/file/d/1xxH5_Qy7aW5y2vZaHA58JObgFMvNRKwm/view?usp=sharing',
       },
       {
-        text: 'Website',
+        text: 'Website (PC)',
         url: 'https://usakame.netlify.app/',
       },
     ],
   },
   {
     title: 'Sugawara Soroban website',
-    description: 'This is my first job.',
+    description: 'My first job.',
     technology: 'Nuxt.js',
     category: 'Work',
     urls: [
