@@ -35,6 +35,7 @@
   @import '@primer/css/box/index.scss';
   @import '@primer/css/buttons/index.scss';
   @import '@primer/css/labels/index.scss';
+  @import '@primer/css/layout/index.scss';
 
   body {
     margin: 0;
@@ -50,6 +51,7 @@
   }
 
   main {
+    margin-top: 1rem;
     width: min(80%, 992px);
     h2 {
       font-size: 1.8rem;
@@ -62,5 +64,9 @@
     section {
       margin-bottom: 1rem;
     }
+  }
+
+  .nobreak {
+    display: inline-block;
   }
 </style>
