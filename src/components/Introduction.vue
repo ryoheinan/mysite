@@ -41,38 +41,35 @@
   </section>
   <section>
     <h2>About my skills...</h2>
-    <h3>Excellent</h3>
-    <ul>
-      <li>HTML</li>
-    </ul>
-    <h3>Good</h3>
-    <ul>
-      <li>Python</li>
-      <li>C</li>
-      <li>JavaScript</li>
-      <li>Django</li>
-      <li>Vue 2</li>
-      <li>Nuxt.js</li>
-    </ul>
-    <h3>Some</h3>
-    <ul>
-      <li>Sass / CSS</li>
-      <li>Unity</li>
-    </ul>
-    <h3>Learning</h3>
-    <ul>
-      <li>OCaml</li>
-      <li>Vue 3</li>
-      <li>TypeScript</li>
-      <li>Go</li>
-    </ul>
+    <div v-for="skill in skillDataset" :key="skill.title" class="py-1">
+      <SkillCard :title="skill.title" :bg-color="skill.bgColor">
+        <div>
+          <span
+            v-for="item in skill.items"
+            :key="item.title"
+            class="mx-1 nobreak"
+            >{{ item.title }}</span
+          >
+        </div>
+      </SkillCard>
+    </div>
   </section>
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent, computed } from 'vue'
+  import { skillData } from '../module/skillconfig'
+  import SkillCard from './SkillCard.vue'
+
   export default defineComponent({
     name: 'Introduction',
+    components: {
+      SkillCard,
+    },
+    setup: () => {
+      const skillDataset = computed(() => skillData)
+      return { skillDataset }
+    },
   })
 </script>
 
