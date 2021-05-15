@@ -7,16 +7,21 @@
       </p>
       <p class="text-gray-light">{{ workData.description }}</p>
 
-      <span v-if="workData.category == 'Hobby'" class="Label Label--success"
+      <span
+        v-if="workData.category == 'Hobby'"
+        title="Label: Hobby"
+        class="Label Label--success"
         >Hobby</span
       >
       <span
         v-else-if="workData.category == 'School'"
+        title="Label: School"
         class="Label mt-1 Label--info"
         >School</span
       >
       <span
         v-else-if="workData.category == 'Work'"
+        title="Label: Work"
         class="Label mt-1 Label--warning"
         >Work</span
       >
