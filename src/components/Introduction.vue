@@ -11,7 +11,7 @@
         >INIAD</a
       >
       and I'm learning computer science there.<br />
-      Nowadays, I'm interested in WEB frontend and UI/UX.
+      Nowadays, I'm interested in Web frontend and UI/UX.
     </p>
     <h3>Hobby</h3>
     <ul class="hobby">
