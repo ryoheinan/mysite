@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center">
+  <footer class="text-center mt-5 pb-3">
     <p>
       Favicon image by Twitter is licensed under CC-BY 4.0 <br />
       &copy;{{ year }}, Ryohei Nagasawa Some Rights Reserved.
