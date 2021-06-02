@@ -2,9 +2,9 @@
   "extends": ["config:base", ":preserveSemverRanges"],
   "timezone": "Asia/Tokyo",
   "labels": ["renovate"],
-  "schedule": "after 10pm on sunday",
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "schedule": "before 10am on sunday"
   },
   "packageRules": [
     {
