@@ -53,7 +53,7 @@ export const workData: Work[] = [
       },
       {
         text: 'Website (PC)',
-        url: 'https://usakame.netlify.app/',
+        url: 'https://usakame.ryohei.dev/',
       },
     ],
   },
