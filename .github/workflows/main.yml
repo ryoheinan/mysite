@@ -36,17 +36,34 @@ jobs:
       - name: Build 🏭
         run: yarn build
 
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
+      - uses: chrnorm/deployment-action@releases/v1
+        name: Create GitHub deployment
+        id: deployment
         with:
-          publish-dir: './dist'
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          enable-pull-request-comment: true
-          enable-commit-comment: true
-          overwrites-pull-request-comment: true
-          github-deployment-environment: "production"
+          token: "${{ github.token }}"
+          target_url: https://ryohei.dev
+          environment: production
+
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=dist --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+      
+      - name: Update deployment status (success)
+        if: success()
+        uses: chrnorm/deployment-status@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          state: "success"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+
+      - name: Update deployment status (failure)
+        if: failure()
+        uses: chrnorm/deployment-status@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          state: "failure"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
