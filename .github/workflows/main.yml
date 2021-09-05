@@ -41,7 +41,7 @@ jobs:
         id: deployment
         with:
           token: "${{ github.token }}"
-          environment: production
+          environment: Production
 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --dir=./dist --message="${{ github.event.head_commit.message }}" --prod
