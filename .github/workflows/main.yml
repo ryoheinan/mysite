@@ -44,20 +44,18 @@ jobs:
           environment: production
 
       - name: Deploy to Netlify
-        run: npx netlify-cli deploy --dir=./dist --prod
+        run: npx netlify-cli deploy --dir=./dist --message="${{ github.event.head_commit.message }}" --prod
         id: netlify-action
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      
-      - run: echo ${{ steps.netlify-action.outputs.URL }}
-      
+            
       - name: Update deployment status (success)
         if: success()
         uses: chrnorm/deployment-status@releases/v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_url: https://ryohei.dev
+          environment_url: https://ryohei.dev
           state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
