@@ -57,6 +57,7 @@ jobs:
         uses: chrnorm/deployment-status@releases/v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          target_url: https://ryohei.dev
           state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
