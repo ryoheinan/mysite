@@ -2,10 +2,11 @@
   "extends": ["config:base", ":preserveSemverRanges"],
   "timezone": "Asia/Tokyo",
   "labels": ["renovate"],
+  "schedule": "after 10am on the first day of the month",
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": "before 10am on sunday"
+    "enabled": true
   },
+  "reviewers": ["ryoheinan"],
   "packageRules": [
     {
       "groupName": "ESLint and Prettier",
