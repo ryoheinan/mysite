@@ -29,13 +29,9 @@
 </script>
 
 <style lang="scss">
-  @import '@primer/css/support/index.scss';
-  @import '@primer/css/base/index.scss';
-  @import '@primer/css/utilities/index.scss';
-  @import '@primer/css/box/index.scss';
-  @import '@primer/css/buttons/index.scss';
+  @import '@primer/css/core/index.scss';
+  @import '@primer/css/color-modes/index.scss';
   @import '@primer/css/labels/index.scss';
-  @import '@primer/css/layout/index.scss';
 
   body {
     margin: 0;

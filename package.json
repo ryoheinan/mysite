@@ -9,7 +9,7 @@
     "lint": "yarn lint:fix"
   },
   "dependencies": {
-    "@primer/css": "^17.6.0",
+    "@primer/css": "^18.0.1",
     "vue": "^3.0.5"
   },
   "devDependencies": {
