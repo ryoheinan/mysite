@@ -16,6 +16,9 @@ export const skillData: Skill[] = [
       {
         title: 'HTML',
       },
+      {
+        title: 'Python',
+      },
     ],
   },
   {
@@ -23,22 +26,19 @@ export const skillData: Skill[] = [
     bgColor: '#A0E3F2',
     items: [
       {
-        title: 'Python',
-      },
-      {
         title: 'C',
-      },
-      {
-        title: 'JavaScript',
       },
       {
         title: 'Django',
       },
       {
-        title: 'Vue 2',
+        title: 'JavaScript',
       },
       {
-        title: 'Nuxt.js',
+        title: 'Nuxt 2',
+      },
+      {
+        title: 'Vue 2',
       },
     ],
   },
@@ -47,10 +47,16 @@ export const skillData: Skill[] = [
     bgColor: '#9AD9C2',
     items: [
       {
+        title: 'OCaml',
+      },
+      {
         title: 'Sass/CSS',
       },
       {
         title: 'Unity',
+      },
+      {
+        title: 'Vue 3',
       },
     ],
   },
@@ -59,7 +65,7 @@ export const skillData: Skill[] = [
     bgColor: '#F5F1BF',
     items: [
       {
-        title: 'OCaml',
+        title: 'Next.js',
       },
       {
         title: 'TypeScript',
@@ -68,7 +74,7 @@ export const skillData: Skill[] = [
         title: 'Go',
       },
       {
-        title: 'Vue 3',
+        title: 'Java',
       },
     ],
   },
