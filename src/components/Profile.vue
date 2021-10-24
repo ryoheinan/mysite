@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Introduction</h2>
+    <h2>My Profile</h2>
     <p>
       Hello! I'm Ryohei Nagasawa!<br />
       Currently, I'm a Japanese student at
@@ -62,7 +62,7 @@
   import SkillCard from './SkillCard.vue'
 
   export default defineComponent({
-    name: 'Introduction',
+    name: 'Profile',
     components: {
       SkillCard,
     },
