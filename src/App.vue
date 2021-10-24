@@ -1,8 +1,8 @@
 <template>
   <Header />
   <main>
-    <Introduction />
     <Work />
+    <Profile />
     <Contact />
   </main>
   <Footer />
@@ -10,7 +10,7 @@
 
 <script lang="ts">
   import { defineComponent } from 'vue'
-  import Introduction from './components/Introduction.vue'
+  import Profile from './components/Profile.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
   import Work from './components/Work.vue'
@@ -19,7 +19,7 @@
   export default defineComponent({
     name: 'App',
     components: {
-      Introduction,
+      Profile,
       Header,
       Footer,
       Work,
