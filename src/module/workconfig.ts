@@ -28,7 +28,7 @@ export const workData: Work[] = [
     title: 'Morphomusic',
     description:
       'My friend, Taito and I joined hackathon in the spring of 2021. We developed this web app for it.',
-    technology: 'Nuxt.js, LIFF (LINE Front-end Framework), Django',
+    technology: 'Nuxt 2, LIFF (LINE Front-end Framework), Django',
     category: 'Hobby',
     urls: [
       {
@@ -60,7 +60,7 @@ export const workData: Work[] = [
   {
     title: 'Sugawara Soroban website',
     description: 'My first job.',
-    technology: 'Nuxt.js',
+    technology: 'Nuxt 2',
     category: 'Work',
     urls: [
       {
