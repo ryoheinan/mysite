@@ -1,3 +1,18 @@
+<script setup lang="ts">
+  import { PropType } from 'vue'
+  import { Work } from '../module/workconfig'
+
+  interface Props {
+    workData: Work
+    textLeft?: boolean
+  }
+
+  const props = withDefaults(defineProps<Props>(), {
+    textLeft: false,
+  })
+
+</script>
+
 <template>
   <div class="Box px-3 mb-3 pt-5 pb-1">
     <div class="flex-auto">
@@ -40,26 +55,6 @@
     </div>
   </div>
 </template>
-
-<script lang="ts">
-  import { defineComponent, PropType } from 'vue'
-  import { Work } from '../module/workconfig'
-
-  export default defineComponent({
-    name: 'WorkCard',
-    props: {
-      textLeft: {
-        type: Boolean,
-        default: false,
-        required: false,
-      },
-      workData: {
-        type: Object as PropType<Work>,
-        required: true,
-      },
-    },
-  })
-</script>
 
 <style lang="scss" scoped>
   .strong {
