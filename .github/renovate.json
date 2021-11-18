@@ -12,9 +12,9 @@
       "groupName": "ESLint and Prettier",
       "packageNames": ["eslint", "prettier"],
       "packagePatterns": [
-        "^@nuxtjs/eslint-config",
-        "^eslint-config-",
-        "^eslint-plugin-",
+        "^@vue/eslint-config-",
+        "^eslint",
+        "^prettier",
         "^@typescript-eslint"
       ],
       "enabled": false
