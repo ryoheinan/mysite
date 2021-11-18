@@ -1,3 +1,9 @@
+<script setup lang="ts">
+  import { ref, computed } from 'vue'
+  const nowYear = computed(() => new Date().getFullYear())
+  const year = ref(nowYear)
+</script>
+
 <template>
   <footer class="text-center mt-5 pb-2">
     <p>
@@ -6,18 +12,6 @@
     </p>
   </footer>
 </template>
-
-<script lang="ts">
-  import { defineComponent, ref, computed } from 'vue'
-  export default defineComponent({
-    name: 'Footer',
-    setup: () => {
-      const nowYear = computed(() => new Date().getFullYear())
-      const year = ref(nowYear)
-      return { year }
-    },
-  })
-</script>
 
 <style lang="scss" scoped>
   footer p {

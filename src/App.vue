@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  import Profile from './components/Profile.vue'
+  import Header from './components/Header.vue'
+  import Footer from './components/Footer.vue'
+  import Work from './components/Work.vue'
+  import Contact from './components/Contact.vue'
+</script>
+
 <template>
   <Header />
   <main>
@@ -7,26 +15,6 @@
   </main>
   <Footer />
 </template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  import Profile from './components/Profile.vue'
-  import Header from './components/Header.vue'
-  import Footer from './components/Footer.vue'
-  import Work from './components/Work.vue'
-  import Contact from './components/Contact.vue'
-
-  export default defineComponent({
-    name: 'App',
-    components: {
-      Profile,
-      Header,
-      Footer,
-      Work,
-      Contact,
-    },
-  })
-</script>
 
 <style lang="scss">
   @import '@primer/css/core/index.scss';

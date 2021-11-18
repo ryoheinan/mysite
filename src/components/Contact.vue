@@ -1,20 +1,13 @@
+<script setup lang="ts">
+  import BlankSlate from './BlankSlate.vue'
+</script>
+
 <template>
   <section>
-    <Blankslate
+    <BlankSlate
       btn-text="Contact me"
       btn-url="https://forms.gle/NC4t6RMXaKtE2voe6"
       description="This contact form uses Google Forms"
     />
   </section>
 </template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  import Blankslate from './Blankslate.vue'
-  export default defineComponent({
-    name: 'Contact',
-    components: {
-      Blankslate,
-    },
-  })
-</script>

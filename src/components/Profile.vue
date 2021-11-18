@@ -1,3 +1,10 @@
+<script setup lang="ts">
+  import { computed } from 'vue'
+  import { skillData } from '../module/skillconfig'
+  import SkillCard from './SkillCard.vue'
+  const skillDataset = computed(() => skillData)
+</script>
+
 <template>
   <section>
     <h2>My Profile</h2>
@@ -55,23 +62,6 @@
     </div>
   </section>
 </template>
-
-<script lang="ts">
-  import { defineComponent, computed } from 'vue'
-  import { skillData } from '../module/skillconfig'
-  import SkillCard from './SkillCard.vue'
-
-  export default defineComponent({
-    name: 'Profile',
-    components: {
-      SkillCard,
-    },
-    setup: () => {
-      const skillDataset = computed(() => skillData)
-      return { skillDataset }
-    },
-  })
-</script>
 
 <style lang="scss" scoped>
   ul {
