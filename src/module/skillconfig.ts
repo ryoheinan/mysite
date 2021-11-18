@@ -53,6 +53,9 @@ export const skillData: Skill[] = [
         title: 'Sass/CSS',
       },
       {
+        title: 'TypeScript',
+      },
+      {
         title: 'Unity',
       },
       {
@@ -68,7 +71,7 @@ export const skillData: Skill[] = [
         title: 'Next.js',
       },
       {
-        title: 'TypeScript',
+        title: 'SQL',
       },
       {
         title: 'Go',

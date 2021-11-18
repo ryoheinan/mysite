@@ -1,16 +1,11 @@
 <script setup lang="ts">
-  import { PropType } from 'vue'
   import { Work } from '../module/workconfig'
 
   interface Props {
     workData: Work
-    textLeft?: boolean
   }
 
-  const props = withDefaults(defineProps<Props>(), {
-    textLeft: false,
-  })
-
+  defineProps<Props>()
 </script>
 
 <template>
