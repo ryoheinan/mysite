@@ -2,11 +2,10 @@
   "extends": ["config:base", ":preserveSemverRanges"],
   "timezone": "Asia/Tokyo",
   "labels": ["renovate"],
-  "schedule":[
-    "after 10am on the first day of the month"
-  ],
+  "schedule": ["after 10am on the first day of the month"],
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "schedule": ["after 10am on the first day of the month"]
   },
   "reviewers": ["ryoheinan"],
   "packageRules": [
