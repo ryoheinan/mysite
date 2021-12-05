@@ -3,7 +3,7 @@
   "timezone": "Asia/Tokyo",
   "labels": ["renovate"],
   "schedule":[
-    "before 10am on the first day of the month"
+    "after 10am on the first day of the month"
   ],
   "lockFileMaintenance": {
     "enabled": true
