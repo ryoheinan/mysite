@@ -68,16 +68,19 @@ export const skillData: Skill[] = [
     bgColor: '#F5F1BF',
     items: [
       {
-        title: 'Next.js',
-      },
-      {
-        title: 'SQL',
+        title: 'Android',
       },
       {
         title: 'Go',
       },
       {
         title: 'Java',
+      },
+      {
+        title: 'Next.js',
+      },
+      {
+        title: 'SQL',
       },
     ],
   },
