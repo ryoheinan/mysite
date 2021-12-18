@@ -36,7 +36,7 @@
 
   main {
     margin-top: 1rem;
-    width: min(80%, 992px);
+    width: min(93%, 920px);
     h2 {
       font-size: 1.8rem;
     }
