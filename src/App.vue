@@ -9,8 +9,8 @@
 <template>
   <Header />
   <main>
-    <Work />
-    <Profile />
+    <Work class="mb-6" />
+    <Profile class="mb-6" />
     <Contact />
   </main>
   <Footer />
