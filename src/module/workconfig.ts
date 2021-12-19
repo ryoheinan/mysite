@@ -21,6 +21,45 @@ interface Image {
 
 export const workData: Work[] = [
   {
+    title: 'e-Shoku',
+    description: 'INIAD Practice 3 project',
+    technology: 'Next.js, TypeScript, Django Rest Framework, PostgreSQL',
+    category: 'School',
+    year: 'working in progress',
+    urls: [
+      {
+        text: 'Source code (client)',
+        url: 'https://github.com/eshoku/frontend',
+      },
+      {
+        text: 'Source code (backend)',
+        url: 'https://github.com/eshoku/backend',
+      },
+    ],
+  },
+  {
+    title: 'Disco Event Hub',
+    description: 'Online Discord event management app',
+    technology: 'Vue 3, TypeScript, Firebase, Python',
+    category: 'School',
+    year: '2021 summer',
+    image: {
+      src: 'disco_event_hub.jpg',
+      alt: 'an image of Disco Event Hub',
+      srcset: 'disco_event_hub.webp',
+    },
+    urls: [
+      {
+        text: 'Source code (client)',
+        url: 'https://github.com/ryoheinan/disco-event-hub-frontend',
+      },
+      {
+        text: 'Source code (backend)',
+        url: 'https://github.com/ryoheinan/disco-event-hub-backend',
+      },
+    ],
+  },
+  {
     title: 'Personal website',
     description: 'This website!!',
     technology: 'Vue 3, TypeScript',
