@@ -1,15 +1,8 @@
-<script setup lang="ts">
-  import { computed } from 'vue'
-  import { skillData } from '../module/skillconfig'
-  import SkillCard from './SkillCard.vue'
-  const skillDataset = computed(() => skillData)
-</script>
-
 <template>
   <section>
     <h2>My Profile</h2>
     <div class="Box mb-3">
-      <div class="intro p-4">
+      <div class="intro p-md-4 p-2">
         <div class="p-2">
           <img
             class="profile-img"
@@ -17,7 +10,7 @@
           />
         </div>
         <div>
-          <p class="pl-4 m-0 mb-2">
+          <p class="pl-md-4 m-0 mb-2">
             Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
             Currently, I'm a Japanese student at
             <a
@@ -29,9 +22,9 @@
             and I'm majoring in computer science there.<br />
             Nowadays, I'm interested in Web frontend and UI/UX.
           </p>
-          <div class="d-flex ml-4 link-buttons">
+          <div class="d-flex ml-md-4 link-buttons">
             <a
-              class="btn"
+              class="btn btn-outline"
               href="https://github.com/ryoheinan"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -39,7 +32,7 @@
               GitHub
             </a>
             <a
-              class="btn"
+              class="btn btn-outline"
               href="https://gitlab.com/ryoheinan"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -47,7 +40,7 @@
               GitLab</a
             >
             <a
-              class="btn"
+              class="btn btn-outline"
               href="https://www.hackerrank.com/ryoheina"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -58,7 +51,7 @@
         </div>
       </div>
 
-      <div class="d-flex p-4 flex-justify-center">
+      <div class="d-flex p-md-4 px-2 py-4 flex-justify-center">
         <div>
           <h3 class="ml-1">Hobby</h3>
           <ul class="hobby mb-1">
@@ -97,21 +90,6 @@
       </div>
     </div>
   </section>
-  <section>
-    <h2>About my skills...</h2>
-    <div v-for="skill in skillDataset" :key="skill.title" class="py-1">
-      <SkillCard :title="skill.title" :bg-color="skill.bgColor">
-        <div>
-          <span
-            v-for="item in skill.items"
-            :key="item.title"
-            class="mx-1 nobreak"
-            >{{ item.title }}</span
-          >
-        </div>
-      </SkillCard>
-    </div>
-  </section>
 </template>
 
 <style lang="scss" scoped>
@@ -148,8 +126,14 @@
   }
 
   .link-buttons {
-    a.btn {
-      margin-right: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+
+    @media screen and (min-width: 350px) {
+      justify-content: start;
+      a.btn {
+        margin-right: 0.5rem;
+      }
     }
   }
 </style>
