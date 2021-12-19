@@ -6,6 +6,7 @@
         <div class="p-2">
           <img
             class="profile-img"
+            alt="profile avatar image"
             src="https://avatars.githubusercontent.com/ryoheinan"
           />
         </div>
