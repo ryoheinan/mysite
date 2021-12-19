@@ -1,7 +1,7 @@
 <template>
   <div class="Box text-center py-3" :style="{ backgroundColor: bgColor }">
     <h3 class="mb-3">{{ title }}</h3>
-    <slot></slot>
+    <slot />
   </div>
 </template>
 

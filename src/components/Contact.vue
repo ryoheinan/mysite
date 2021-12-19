@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  import BlankSlate from './BlankSlate.vue'
+</script>
+
 <template>
   <section>
     <BlankSlate
@@ -7,14 +11,3 @@
     />
   </section>
 </template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  import BlankSlate from './BlankSlate.vue'
-  export default defineComponent({
-    name: 'Contact',
-    components: {
-      BlankSlate,
-    },
-  })
-</script>

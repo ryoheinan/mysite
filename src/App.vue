@@ -1,32 +1,22 @@
-<template>
-  <Header />
-  <main>
-    <Introduction />
-    <Work />
-    <Contact />
-  </main>
-  <Footer />
-</template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  import Introduction from './components/Introduction.vue'
+<script setup lang="ts">
+  import Profile from './components/Profile.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
   import Work from './components/Work.vue'
   import Contact from './components/Contact.vue'
-
-  export default defineComponent({
-    name: 'App',
-    components: {
-      Introduction,
-      Header,
-      Footer,
-      Work,
-      Contact,
-    },
-  })
+  import Skill from './components/Skill.vue'
 </script>
+
+<template>
+  <Header />
+  <main>
+    <Work class="mb-7" />
+    <Profile class="mb-7" />
+    <Skill class="mb-7" />
+    <Contact />
+  </main>
+  <Footer />
+</template>
 
 <style lang="scss">
   @import '@primer/css/core/index.scss';
@@ -48,7 +38,7 @@
 
   main {
     margin-top: 1rem;
-    width: min(80%, 992px);
+    width: min(93%, 920px);
     h2 {
       font-size: 1.8rem;
     }

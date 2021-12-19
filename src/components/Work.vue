@@ -1,3 +1,10 @@
+<script setup lang="ts">
+  import { computed } from 'vue'
+  import { workData } from '../module/workconfig'
+  import WorkCard from './WorkCard.vue'
+  const workDataset = computed(() => workData)
+</script>
+
 <template>
   <section>
     <h2>Work</h2>
@@ -6,22 +13,3 @@
     </div>
   </section>
 </template>
-
-<script lang="ts">
-  import { defineComponent, computed } from 'vue'
-  import { workData } from '../module/workconfig'
-  import WorkCard from './WorkCard.vue'
-
-  export default defineComponent({
-    name: 'Work',
-    components: {
-      WorkCard,
-    },
-    setup: () => {
-      const workDataset = computed(() => workData)
-      return { workDataset }
-    },
-  })
-</script>
-
-<style lang="scss" scoped></style>

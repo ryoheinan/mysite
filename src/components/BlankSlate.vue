@@ -1,3 +1,13 @@
+<script setup lang="ts">
+  interface Props {
+    description: string
+    btnText?: string
+    btnUrl?: string
+  }
+
+  defineProps<Props>()
+</script>
+
 <template>
   <div class="blankslate">
     <a
@@ -12,29 +22,6 @@
     <p>{{ description }}</p>
   </div>
 </template>
-
-<script lang="ts">
-  import { defineComponent } from 'vue'
-  export default defineComponent({
-    name: 'Blankslate',
-    props: {
-      btnText: {
-        type: String,
-        required: false,
-        default: '',
-      },
-      btnUrl: {
-        type: String,
-        required: false,
-        default: '#',
-      },
-      description: {
-        type: String,
-        required: true,
-      },
-    },
-  })
-</script>
 
 <style lang="scss" scoped>
   @import '@primer/css/blankslate/index.scss';
