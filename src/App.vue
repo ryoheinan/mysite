@@ -4,13 +4,15 @@
   import Footer from './components/Footer.vue'
   import Work from './components/Work.vue'
   import Contact from './components/Contact.vue'
+  import Skill from './components/Skill.vue'
 </script>
 
 <template>
   <Header />
   <main>
-    <Work class="mb-6" />
-    <Profile class="mb-6" />
+    <Work class="mb-7" />
+    <Profile class="mb-7" />
+    <Skill class="mb-7" />
     <Contact />
   </main>
   <Footer />

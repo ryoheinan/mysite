@@ -98,7 +98,7 @@ export const workData: Work[] = [
   {
     title: 'Game : The Tortoise and the Hare',
     description:
-      'A famous story, "The Tortoise and the Hare (a.k.a. Usagitokame)"-themed PC game.',
+      'A famous story, "The Tortoise and the Hare (a.k.a. Usagitokame)"-themed PC game',
     technology: 'Unity, C#',
     category: 'School',
     year: '2020 winter',
@@ -120,7 +120,7 @@ export const workData: Work[] = [
   },
   {
     title: 'UniWeather',
-    description: 'Universal design weather forecast site.',
+    description: 'Universal design weather forecast site',
     technology: 'Vue 2',
     category: 'School',
     year: '2020 summer',
@@ -135,7 +135,7 @@ export const workData: Work[] = [
   },
   {
     title: 'Sugawara Soroban website',
-    description: 'My first job.',
+    description: 'My first job as a web developer',
     technology: 'Nuxt 2',
     category: 'Work',
     year: '2019 winter ~ now',
