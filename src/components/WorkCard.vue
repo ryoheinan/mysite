@@ -12,7 +12,7 @@
   <div class="Box px-3 mb-3 pt-5 pb-1">
     <h3 class="mb-2">{{ workData.title }}</h3>
     <div class="container-lg clearfix">
-      <div class="col-md-6 float-left">
+      <div class="col-md-6 float-left mb-2 mb-md-0">
         <p class="mb-1">
           Powered by <span class="strong">{{ workData.technology }}</span>
         </p>
