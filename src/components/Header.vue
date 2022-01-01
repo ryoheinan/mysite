@@ -31,6 +31,14 @@
   .link {
     text-align: right;
     margin: 1rem 0 0 0;
+    svg {
+      @media (prefers-color-scheme: light) {
+        fill: #000000;
+      }
+      @media (prefers-color-scheme: dark) {
+        fill: #ffffff;
+      }
+    }
   }
   h1 {
     margin-top: 0;

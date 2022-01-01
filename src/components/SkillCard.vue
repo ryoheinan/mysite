@@ -25,6 +25,7 @@
 
 <style lang="scss" scoped>
   .Box {
+    color: #2c3e50;
     border: 0;
   }
 </style>
