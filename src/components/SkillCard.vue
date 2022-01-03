@@ -20,11 +20,14 @@
 
 <style lang="scss" scoped>
   .Box {
-    color: #2c3e50;
     border: 0;
   }
 
   @media (prefers-color-scheme: light) {
+    .Box {
+      color: #2c3e50;
+    }
+
     .skill-excellent {
       background-color: #f2c1b6;
     }
@@ -39,6 +42,34 @@
 
     .skill-learning {
       background-color: #f5f1bf;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .Box {
+      color: #141b22;
+
+      h3::selection,
+      span::selection {
+        background-color: #141b22;
+        color: #ffffff;
+      }
+    }
+
+    .skill-excellent {
+      background-color: #ff4f4f;
+    }
+
+    .skill-good {
+      background-color: #04d9ff;
+    }
+
+    .skill-some {
+      background-color: #03e9bb;
+    }
+
+    .skill-learning {
+      background-color: #fdd42e;
     }
   }
 </style>
