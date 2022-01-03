@@ -1,17 +1,13 @@
 export interface Skill {
   title: string
-  bgColor?: string
-  items: Array<Item>
-}
-
-interface Item {
-  title: string
+  styleName: string | 'skill-excellent'
+  items: Array<{ title: string }>
 }
 
 export const skillData: Skill[] = [
   {
     title: 'Excellent',
-    bgColor: '#F2C1B6',
+    styleName: 'skill-excellent',
     items: [
       {
         title: 'HTML',
@@ -23,7 +19,7 @@ export const skillData: Skill[] = [
   },
   {
     title: 'Good',
-    bgColor: '#A0E3F2',
+    styleName: 'skill-good',
     items: [
       {
         title: 'C',
@@ -44,7 +40,7 @@ export const skillData: Skill[] = [
   },
   {
     title: 'Some',
-    bgColor: '#9AD9C2',
+    styleName: 'skill-some',
     items: [
       {
         title: 'OCaml',
@@ -65,7 +61,7 @@ export const skillData: Skill[] = [
   },
   {
     title: 'Learning',
-    bgColor: '#F5F1BF',
+    styleName: 'skill-learning',
     items: [
       {
         title: 'Android',
