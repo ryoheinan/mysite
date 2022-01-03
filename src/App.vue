@@ -33,7 +33,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    color: #2c3e50;
+    @media (prefers-color-scheme: light) {
+      color: #2c3e50;
+    }
   }
 
   main {
