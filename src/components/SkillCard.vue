@@ -47,29 +47,29 @@
 
   @media (prefers-color-scheme: dark) {
     .Box {
-      color: #141b22;
+      color: #070a0d;
 
       h3::selection,
       span::selection {
-        background-color: #141b22;
+        background-color: #070a0d;
         color: #ffffff;
       }
     }
 
     .skill-excellent {
-      background-color: #ff4f4f;
+      background-color: #dd5d40;
     }
 
     .skill-good {
-      background-color: #04d9ff;
+      background-color: #4bcae7;
     }
 
     .skill-some {
-      background-color: #03e9bb;
+      background-color: #4ebc93;
     }
 
     .skill-learning {
-      background-color: #fdd42e;
+      background-color: #e6dd60;
     }
   }
 </style>
