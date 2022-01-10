@@ -24,6 +24,7 @@
               and I'm majoring in computer science there.<br />
               Nowadays, I'm interested in web frontend and UI/UX.
             </p>
+            <p class="m-0 mb-2">I passed FE (基本情報技術者試験) late 2021.</p>
           </div>
           <div
             class="d-flex ml-md-4 flex-justify-center flex-md-justify-start link-buttons"
