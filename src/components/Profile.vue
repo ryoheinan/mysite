@@ -11,19 +11,23 @@
           />
         </div>
         <div>
-          <p class="pl-md-4 m-0 mb-2">
-            Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
-            Currently, I'm a Japanese student at
-            <a
-              href="https://www.iniad.org/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >INIAD</a
-            >
-            and I'm majoring in computer science there.<br />
-            Nowadays, I'm interested in Web frontend and UI/UX.
-          </p>
-          <div class="d-flex ml-md-4 link-buttons">
+          <div class="pl-md-4">
+            <p class="m-0 mb-1">
+              Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
+              Currently, I'm a Japanese student at
+              <a
+                href="https://www.iniad.org/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >INIAD</a
+              >
+              and I'm majoring in computer science there.<br />
+              Nowadays, I'm interested in web frontend and UI/UX.
+            </p>
+          </div>
+          <div
+            class="d-flex ml-md-4 flex-justify-center flex-md-justify-start link-buttons"
+          >
             <a
               class="btn btn-outline"
               href="https://github.com/ryoheinan"
