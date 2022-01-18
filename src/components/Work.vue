@@ -1,8 +1,14 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import { workData } from '../module/workconfig'
+  import { workData as workDataEn } from '../module/workConfig.en'
+  import { workData as workDataJa } from '../module/workConfig.ja'
   import WorkCard from './WorkCard.vue'
-  const workDataset = computed(() => workData)
+  import { useSettingsStore } from '../stores/settings'
+
+  const settings = useSettingsStore()
+  const workDataset = computed(() =>
+    settings.lang === 'en' ? workDataEn : workDataJa
+  )
 </script>
 
 <template>

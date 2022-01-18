@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  import { computed } from 'vue'
+  import { useSettingsStore } from '../stores/settings'
+
+  const settings = useSettingsStore()
+  const getLang = computed(() => settings.getLang)
+</script>
+
 <template>
   <section>
     <h2>My Profile</h2>
@@ -11,7 +19,7 @@
           />
         </div>
         <div>
-          <p class="pl-md-4 m-0 mb-2">
+          <p v-if="getLang.lang === 'en'" class="pl-md-4 m-0 mb-2">
             Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
             Currently, I'm a Japanese student at
             <a
@@ -22,6 +30,18 @@
             >
             and I'm majoring in computer science there.<br />
             Nowadays, I'm interested in Web frontend and UI/UX.
+          </p>
+          <p v-else class="pl-md-4 m-0 mb-2">
+            こんにちは! <span class="h3">長澤 椋平</span>です!<br />
+            現在は
+            <a
+              href="https://www.iniad.org/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >INIAD</a
+            >
+            に通い、コンピュータ・サイエンスを学んでいる学生です。<br />
+            WebフロントエンドとUI/UX関連に興味があります。
           </p>
           <div class="d-flex ml-md-4 link-buttons">
             <a
