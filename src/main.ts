@@ -7,15 +7,20 @@ import App from './App.vue'
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [],
+  routes: [
+    { path: '/', name: 'index', component: App },
+    { path: '/:lang', name: 'lang', component: App },
+  ],
 })
 
 router.beforeEach((to) => {
   // set lang setting via query param
-  const lang = to.query.lang
+  const lang = to.params.lang
+  const settings = useSettingsStore()
   if (lang === 'en') {
-    const settings = useSettingsStore()
     settings.lang = lang
+  } else {
+    settings.lang = 'ja'
   }
 })
 
