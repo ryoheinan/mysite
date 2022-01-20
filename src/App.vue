@@ -25,10 +25,12 @@
 
   body {
     margin: 0;
+    font-family: Avenir, 'Noto Sans JP', Roboto, 'BIZ UDPGothic',
+      'Helvetica Neue', Arial, Helvetica, 'Hiragino Kaku Gothic ProN',
+      'Hiragino Sans', 'Segoe UI', sans-serif;
   }
 
   #app {
-    font-family: Avenir, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
