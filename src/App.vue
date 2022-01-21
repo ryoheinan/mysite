@@ -34,9 +34,10 @@
 
   body {
     margin: 0;
-    font-family: Avenir, 'Noto Sans JP', Roboto, 'BIZ UDPGothic',
-      'Helvetica Neue', Arial, Helvetica, 'Hiragino Kaku Gothic ProN',
-      'Hiragino Sans', 'Segoe UI', sans-serif;
+    font-family: Avenir, 'Noto Sans JP', 'Noto Sans CJK JP', Roboto,
+      'BIZ UDPGothic', 'Helvetica Neue', Arial, Helvetica,
+      'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Segoe UI', '游ゴシック',
+      'YuGothic', sans-serif;
   }
 
   #app {
