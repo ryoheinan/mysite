@@ -20,7 +20,7 @@
         </div>
         <div>
           <p v-if="getLang.lang === 'en'" class="pl-md-4 m-0 mb-2">
-            Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
+            Hello! I'm <span class="h4">Ryohei Nagasawa</span>!<br />
             Currently, I'm a Japanese student at
             <a
               href="https://www.iniad.org/"
@@ -32,7 +32,7 @@
             Nowadays, I'm interested in Web frontend and UI/UX.
           </p>
           <p v-else class="pl-md-4 m-0 mb-2">
-            こんにちは! <span class="h3">長澤 椋平</span>です!<br />
+            こんにちは! <span class="h4">長澤 椋平</span>です!<br />
             現在は
             <a
               href="https://www.iniad.org/"
