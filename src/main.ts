@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import { createPinia } from 'pinia'
+import { createHead } from '@vueuse/head'
 import { useSettingsStore } from './stores/settings'
 
 import App from './App.vue'
@@ -27,4 +28,5 @@ router.beforeEach((to) => {
 const app = createApp(App)
 app.use(router)
 app.use(createPinia())
+app.use(createHead())
 app.mount('#app')
