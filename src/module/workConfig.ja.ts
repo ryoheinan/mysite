@@ -61,7 +61,7 @@ export const workData: Work[] = [
       '友人のTaitoと2021年の春にハッカソンに出場した際に開発したWebアプリです。\n形態素解析を用いて、LINEのトーク情報をもとに楽曲をリコメンドしてくれるLINE Botです。\n履歴情報などは、LIFFアプリで確認することができます。',
     technology: 'Nuxt 2, LIFF (LINE Front-end Framework), Django',
     category: 'Hobby',
-    year: '2021 spring',
+    year: '2021 春',
     image: {
       src: 'morphomusic.jpg',
       alt: 'an image of morphomusic',
