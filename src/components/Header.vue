@@ -1,6 +1,60 @@
+<script setup lang="ts">
+  import { computed } from 'vue'
+  import { useSettingsStore } from '../stores/settings'
+
+  const settings = useSettingsStore()
+  const getLang = computed(() => settings.getLang)
+</script>
+
 <template>
   <header>
     <div class="link">
+      <div>
+        <details class="dropdown details-reset details-overlay d-inline-block">
+          <summary class="color-fg-muted p-2 d-inline" aria-haspopup="true">
+            <div class="d-flex flex-items-center">
+              <div class="globe-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.543 7.25h2.733c.144-2.074.866-3.756 1.58-4.948.12-.197.237-.381.353-.552a6.506 6.506 0 00-4.666 5.5zm2.733 1.5H1.543a6.506 6.506 0 004.666 5.5 11.13 11.13 0 01-.352-.552c-.715-1.192-1.437-2.874-1.581-4.948zm1.504 0h4.44a9.637 9.637 0 01-1.363 4.177c-.306.51-.612.919-.857 1.215a9.978 9.978 0 01-.857-1.215A9.637 9.637 0 015.78 8.75zm4.44-1.5H5.78a9.637 9.637 0 011.363-4.177c.306-.51.612-.919.857-1.215.245.296.55.705.857 1.215A9.638 9.638 0 0110.22 7.25zm1.504 1.5c-.144 2.074-.866 3.756-1.58 4.948-.12.197-.237.381-.353.552a6.506 6.506 0 004.666-5.5h-2.733zm2.733-1.5h-2.733c-.144-2.074-.866-3.756-1.58-4.948a11.738 11.738 0 00-.353-.552 6.506 6.506 0 014.666 5.5zM8 0a8 8 0 100 16A8 8 0 008 0z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <span class="mx-1">{{ getLang.langText }}</span>
+                <div class="dropdown-caret"></div>
+              </div>
+            </div>
+          </summary>
+
+          <div class="dropdown-menu dropdown-menu-se">
+            <div class="dropdown-header">
+              {{ getLang.lang === 'en' ? '言語設定' : 'Language Settings' }}
+            </div>
+            <ul>
+              <li v-if="getLang.lang === 'en'">
+                <router-link class="dropdown-item" :to="{ name: 'index' }" exact
+                  >日本語</router-link
+                >
+              </li>
+              <li v-else>
+                <router-link
+                  class="dropdown-item"
+                  :to="{ name: 'lang', params: { lang: 'en' } }"
+                  exact
+                  >English</router-link
+                >
+              </li>
+            </ul>
+          </div>
+        </details>
+      </div>
       <a
         href="https://github.com/ryoheinan"
         target="_blank"
@@ -19,18 +73,39 @@
         </svg>
       </a>
     </div>
-    <h1>
-      Hi there <span class="hand">👋</span><br />
-      I'm<br />
-      Ryohei Nagasawa
-    </h1>
+    <div class="d-flex flex-justify-center">
+      <h1>
+        Hi there <span class="hand">👋</span><br />
+        I'm<br />
+        Ryohei Nagasawa
+      </h1>
+    </div>
   </header>
 </template>
 
 <style lang="scss" scoped>
+  @import '@primer/css/dropdown/index.scss';
+
+  header {
+    width: min(93%, 992px);
+  }
   .link {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
     margin: 1rem 0 0 0;
+
+    .globe-icon {
+      margin-top: 4.5px;
+      svg {
+        @media (prefers-color-scheme: light) {
+          fill: #57606a;
+        }
+        @media (prefers-color-scheme: dark) {
+          fill: #8b949e;
+        }
+      }
+    }
+
     svg {
       @media (prefers-color-scheme: light) {
         fill: #000000;
@@ -45,6 +120,7 @@
     font-size: min(10vw, 120px);
     transform-origin: center top;
     animation: show 1s both;
+    white-space: nowrap;
   }
   @keyframes show {
     0% {

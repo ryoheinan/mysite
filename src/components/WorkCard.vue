@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { Work } from '../module/workconfig'
+  import { Work } from '../module/workConfig.en' // import interface
 
   interface Props {
     workData: Work
@@ -17,7 +17,9 @@
           Powered by <span class="strong">{{ workData.technology }}</span>
         </p>
         <p class="mb-3">{{ workData.year }}</p>
-        <p class="mb-2 text-gray-light">{{ workData.description }}</p>
+        <p class="mb-2 text-gray-light description">
+          {{ workData.description }}
+        </p>
 
         <span
           v-if="workData.category == 'Hobby'"
@@ -72,6 +74,9 @@
 </template>
 
 <style lang="scss" scoped>
+  .description {
+    white-space: pre-wrap;
+  }
   .strong {
     font-size: 1.1rem;
     font-weight: 500;

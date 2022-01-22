@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  import { computed } from 'vue'
+  import { useSettingsStore } from '../stores/settings'
+
+  const settings = useSettingsStore()
+  const getLang = computed(() => settings.getLang)
+</script>
+
 <template>
   <section>
     <h2>My Profile</h2>
@@ -11,7 +19,7 @@
           />
         </div>
         <div>
-          <div class="pl-md-4">
+          <div v-if="getLang.lang === 'en'" class="pl-md-4">
             <p class="m-0 mb-1">
               Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
               Currently, I'm a Japanese student at
@@ -24,7 +32,22 @@
               and I'm majoring in computer science there.<br />
               Nowadays, I'm interested in web frontend and UI/UX.
             </p>
-            <p class="m-0 mb-2">I passed FE (基本情報技術者試験) late 2021.</p>
+            <p class="m-0 mb-2">I passed FE (基本情報技術者試験) in 2021.</p>
+          </div>
+          <div v-else class="pl-md-4">
+            <p class="m-0 mb-1">
+              こんにちは! <span class="h4">長澤 椋平</span>です!<br />
+              現在は
+              <a
+                href="https://www.iniad.org/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >INIAD</a
+              >
+              に通い、コンピュータ・サイエンスを学んでいる学生です。<br />
+              WebフロントエンドとUI/UX関連に興味があります。
+            </p>
+            <p class="m-0 mb-2">2021年に基本情報技術者試験 合格</p>
           </div>
           <div
             class="d-flex ml-md-4 flex-justify-center flex-md-justify-start link-buttons"
