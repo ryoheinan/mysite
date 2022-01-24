@@ -53,9 +53,6 @@
   main {
     margin-top: 1rem;
     width: min(93%, 992px);
-    h1 {
-      font-weight: 800;
-    }
     h2 {
       font-size: 1.8rem;
       font-weight: 700;

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     ViteWebfontDownload([
-      'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap',
+      'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap',
     ]),
   ],
 })
