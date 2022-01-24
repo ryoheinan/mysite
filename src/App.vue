@@ -1,13 +1,22 @@
 <script setup lang="ts">
+  import { computed } from 'vue'
+  import { Head } from '@vueuse/head'
   import Profile from './components/Profile.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
   import Work from './components/Work.vue'
   import Contact from './components/Contact.vue'
   import Skill from './components/Skill.vue'
+  import { useSettingsStore } from './stores/settings'
+
+  const settings = useSettingsStore()
+  const getLang = computed(() => settings.getLang)
 </script>
 
 <template>
+  <Head>
+    <html :lang="getLang.lang" />
+  </Head>
   <Header />
   <main>
     <Work class="mb-7" />
@@ -25,9 +34,10 @@
 
   body {
     margin: 0;
-    font-family: Avenir, 'Noto Sans JP', Roboto, 'BIZ UDPGothic',
-      'Helvetica Neue', Arial, Helvetica, 'Hiragino Kaku Gothic ProN',
-      'Hiragino Sans', 'Segoe UI', sans-serif;
+    font-family: Avenir, 'Noto Sans JP', 'Noto Sans CJK JP', Roboto, 'Segoe UI',
+      'BIZ UDPGothic', 'Helvetica Neue', Arial, Helvetica,
+      'Hiragino Kaku Gothic ProN', 'Hiragino Sans', '游ゴシック', 'YuGothic',
+      sans-serif;
   }
 
   #app {
@@ -43,12 +53,17 @@
   main {
     margin-top: 1rem;
     width: min(93%, 992px);
+    h1 {
+      font-weight: 800;
+    }
     h2 {
       font-size: 1.8rem;
+      font-weight: 700;
     }
 
     h3 {
       font-size: 1.3rem;
+      font-weight: 700;
     }
 
     section {

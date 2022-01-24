@@ -96,6 +96,14 @@
 
     .globe-icon {
       margin-top: 4.5px;
+      svg {
+        @media (prefers-color-scheme: light) {
+          fill: #57606a;
+        }
+        @media (prefers-color-scheme: dark) {
+          fill: #8b949e;
+        }
+      }
     }
 
     svg {
@@ -112,6 +120,7 @@
     font-size: min(10vw, 120px);
     transform-origin: center top;
     animation: show 1s both;
+    white-space: nowrap;
   }
   @keyframes show {
     0% {

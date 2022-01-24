@@ -19,31 +19,39 @@
           />
         </div>
         <div>
-          <p v-if="getLang.lang === 'en'" class="pl-md-4 m-0 mb-2">
-            Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
-            Currently, I'm a Japanese student at
-            <a
-              href="https://www.iniad.org/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >INIAD</a
-            >
-            and I'm majoring in computer science there.<br />
-            Nowadays, I'm interested in Web frontend and UI/UX.
-          </p>
-          <p v-else class="pl-md-4 m-0 mb-2">
-            こんにちは! <span class="h3">長澤 椋平</span>です!<br />
-            現在は
-            <a
-              href="https://www.iniad.org/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >INIAD</a
-            >
-            に通い、コンピュータ・サイエンスを学んでいる学生です。<br />
-            WebフロントエンドとUI/UX関連に興味があります。
-          </p>
-          <div class="d-flex ml-md-4 link-buttons">
+          <div v-if="getLang.lang === 'en'" class="pl-md-4">
+            <p class="m-0 mb-1">
+              Hello! I'm <span class="h3">Ryohei Nagasawa</span>!<br />
+              Currently, I'm a Japanese student at
+              <a
+                href="https://www.iniad.org/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >INIAD</a
+              >
+              and I'm majoring in computer science there.<br />
+              Nowadays, I'm interested in web frontend and UI/UX.
+            </p>
+            <p class="m-0 mb-2">I passed FE (基本情報技術者試験) in 2021.</p>
+          </div>
+          <div v-else class="pl-md-4">
+            <p class="m-0 mb-1">
+              こんにちは! <span class="h4">長澤 椋平</span>です!<br />
+              現在は
+              <a
+                href="https://www.iniad.org/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >INIAD</a
+              >
+              に通い、コンピュータ・サイエンスを学んでいる学生です。<br />
+              WebフロントエンドとUI/UX関連に興味があります。
+            </p>
+            <p class="m-0 mb-2">2021年に基本情報技術者試験 合格</p>
+          </div>
+          <div
+            class="d-flex ml-md-4 flex-justify-center flex-md-justify-start link-buttons"
+          >
             <a
               class="btn btn-outline"
               href="https://github.com/ryoheinan"
