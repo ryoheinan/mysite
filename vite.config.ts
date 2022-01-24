@@ -1,20 +1,13 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import ViteFonts from 'vite-plugin-fonts'
+import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    ViteFonts({
-      google: {
-        families: [
-          {
-            name: 'Noto Sans JP',
-            styles: 'wght@400;500',
-          },
-        ],
-      },
-    }),
+    ViteWebfontDownload([
+      'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap',
+    ]),
   ],
 })
