@@ -26,7 +26,7 @@
               <a
                 href="https://www.iniad.org/"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel="noopener noreferrer"
                 >INIAD</a
               >
               and I'm majoring in computer science there.<br />
@@ -41,7 +41,7 @@
               <a
                 href="https://www.iniad.org/"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel="noopener noreferrer"
                 >INIAD</a
               >
               に通い、コンピュータ・サイエンスを学んでいる学生です。<br />
@@ -56,7 +56,7 @@
               class="btn btn-outline"
               href="https://github.com/ryoheinan"
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
@@ -64,7 +64,7 @@
               class="btn btn-outline"
               href="https://gitlab.com/ryoheinan"
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
             >
               GitLab</a
             >
@@ -72,7 +72,7 @@
               class="btn btn-outline"
               href="https://www.hackerrank.com/ryoheina"
               target="_blank"
-              rel="noopener noreferrer nofollow"
+              rel="noopener noreferrer"
             >
               HackerRank</a
             >

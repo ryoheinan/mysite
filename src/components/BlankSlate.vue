@@ -16,7 +16,7 @@
       class="btn btn-large btn-primary h4 mb-1 py-3"
       role="button"
       target="_blank"
-      rel="noopener noreferrer nofollow"
+      rel="noopener noreferrer"
       >{{ btnText }}</a
     >
     <p>{{ description }}</p>
