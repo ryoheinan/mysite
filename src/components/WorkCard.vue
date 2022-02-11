@@ -66,7 +66,7 @@
         class="btn mr-2 mb-2"
         role="button"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         >{{ urlItem.text }}</a
       >
     </div>

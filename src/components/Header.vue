@@ -58,7 +58,7 @@
       <a
         href="https://github.com/ryoheinan"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         aria-label="link to GitHub profile page"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
