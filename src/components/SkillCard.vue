@@ -57,19 +57,19 @@
     }
 
     .skill-excellent {
-      background-color: #dd5d40;
+      background-color: #ff3cdf;
     }
 
     .skill-good {
-      background-color: #4bcae7;
+      background-color: #ff9634;
     }
 
     .skill-some {
-      background-color: #4ebc93;
+      background-color: #39f03c;
     }
 
     .skill-learning {
-      background-color: #e6dd60;
+      background-color: #fcff57;
     }
   }
 </style>
