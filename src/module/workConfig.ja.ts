@@ -7,7 +7,12 @@ export const workData: Work[] = [
       '情報連携実習3のプロジェクトです。\nオンライン食事会のニューノーマルをテーマに開発しました。',
     technology: 'Next.js, TypeScript, Django Rest Framework, PostgreSQL',
     category: 'School',
-    year: '開発中',
+    year: '2021 夏 ~  2022 初頭',
+    image: {
+      src: 'eshoku.jpg',
+      alt: 'e-Shokuのwebアプリのスクリーンショット画像',
+      srcset: 'eshoku.webp',
+    },
     urls: [
       {
         text: 'Source code (client)',
@@ -27,7 +32,7 @@ export const workData: Work[] = [
     year: '2021 夏',
     image: {
       src: 'disco_event_hub.jpg',
-      alt: 'an image of Disco Event Hub',
+      alt: 'Disco Event Hubのスクリーンショット画像',
       srcset: 'disco_event_hub.webp',
     },
     urls: [
@@ -64,7 +69,7 @@ export const workData: Work[] = [
     year: '2021 春',
     image: {
       src: 'morphomusic.jpg',
-      alt: 'an image of morphomusic',
+      alt: 'MorphomusicのLINE Botの動作画面',
       srcset: 'morphomusic.webp',
     },
     urls: [
@@ -87,7 +92,7 @@ export const workData: Work[] = [
     year: '2020 冬',
     image: {
       src: 'usakame.png',
-      alt: 'an image of "The Tortoise and the Hare"-themed PC game',
+      alt: '「うさぎとかめ」をテーマにしたゲームのスクリーンショット画像',
       srcset: 'usakame.webp',
     },
     urls: [
@@ -125,7 +130,7 @@ export const workData: Work[] = [
     year: '2019 冬 ~ 現在',
     image: {
       src: 'soroban.png',
-      alt: 'an image of Sugawara Soroban website',
+      alt: '菅原そろばん教室のWebサイトのスクリーンショット画像',
       srcset: 'soroban.webp',
     },
     urls: [

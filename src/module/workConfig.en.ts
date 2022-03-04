@@ -25,7 +25,12 @@ export const workData: Work[] = [
     description: 'INIAD Practice 3 project',
     technology: 'Next.js, TypeScript, Django Rest Framework, PostgreSQL',
     category: 'School',
-    year: 'working in progress',
+    year: '2021 summer ~ beginning of 2022 ',
+    image: {
+      src: 'eshoku.jpg',
+      alt: 'an image of e-Shoku',
+      srcset: 'eshoku.webp',
+    },
     urls: [
       {
         text: 'Source code (client)',
