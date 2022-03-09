@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`alert component > スナップショット 1`] = `"<div class=\\"flash\\" data-v-d0c93148=\\"\\">こちらからアクセスできます。 <a class=\\"btn btn-primary btn-sm flash-action\\" href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-d0c93148=\\"\\">リンク</a></div>"`;
