@@ -1,0 +1,8 @@
+// Vitest Snapshot v1
+
+exports[`SkillCard component > Snapshot 1`] = `
+"<div class=\\"Box text-center py-3 skill-excellent\\" data-v-3d488efe=\\"\\">
+  <h3 class=\\"mb-3\\" data-v-3d488efe=\\"\\">Excellent</h3>
+  <div data-test=\\"items\\" data-v-3d488efe=\\"\\"><span class=\\"mx-1 nobreak\\" data-test=\\"item\\" data-v-3d488efe=\\"\\">item1</span><span class=\\"mx-1 nobreak\\" data-test=\\"item\\" data-v-3d488efe=\\"\\">item2</span><span class=\\"mx-1 nobreak\\" data-test=\\"item\\" data-v-3d488efe=\\"\\">item3</span></div>
+</div>"
+`;
