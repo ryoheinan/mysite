@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import WorkCard from '../components/WorkCard.vue'
+import WorkCard from '../src/components/WorkCard.vue'
 import { describe, expect, it } from 'vitest'
 
 describe('WorkCard component', () => {

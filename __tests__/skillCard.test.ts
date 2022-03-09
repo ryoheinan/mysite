@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import SkillCard from '../components/SkillCard.vue'
+import SkillCard from '../src/components/SkillCard.vue'
 import { describe, expect, it } from 'vitest'
 
 describe('SkillCard component', () => {

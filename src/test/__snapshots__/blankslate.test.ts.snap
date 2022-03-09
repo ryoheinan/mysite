@@ -1,7 +1,0 @@
-// Vitest Snapshot v1
-
-exports[`BlankSlate component > Snapshot 1`] = `
-"<div class=\\"blankslate\\" data-v-f296d756=\\"\\"><a href=\\"https://example.com\\" class=\\"btn btn-large btn-primary h4 mb-1 py-3\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-f296d756=\\"\\">リンク</a>
-  <p data-v-f296d756=\\"\\">これは説明です。</p>
-</div>"
-`;

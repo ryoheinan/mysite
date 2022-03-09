@@ -1,20 +1,22 @@
 import { mount } from '@vue/test-utils'
-import BlankSlate from '../components/BlankSlate.vue'
+import Alert from '../src/components/Alert.vue'
 import { describe, expect, it } from 'vitest'
 
-describe('BlankSlate component', () => {
-  expect(BlankSlate).toBeTruthy()
+describe('Alert component', () => {
+  expect(Alert).toBeTruthy()
 
-  const wrapper = mount(BlankSlate, {
+  const wrapper = mount(Alert, {
     props: {
-      description: 'これは説明です。',
-      btnText: 'リンク',
-      btnUrl: 'https://example.com',
+      msg: 'こちらからアクセスできます。',
+      link: {
+        title: 'リンク',
+        url: 'https://example.com',
+      },
     },
   })
 
-  it('descriptionが正しく設定されているか', () => {
-    expect(wrapper.text()).toContain('これは説明です。')
+  it('msgが正しく設定されているか', () => {
+    expect(wrapper.text()).toContain('こちらからアクセスできます。')
   })
   it('aタグが正しく設定されているか', () => {
     expect(wrapper.find('a').exists()).toBeTruthy()
