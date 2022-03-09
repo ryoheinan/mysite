@@ -14,7 +14,7 @@ describe('SkillCard component', () => {
   })
 
   it('msgが正しく設定されているか', () => {
-    expect(wrapper.find('h3').text()).toContain('Excellent')
+    expect(wrapper.find('h3').text()).toBe('Excellent')
   })
   it('itemが正しく設定されているか', () => {
     expect(wrapper.find('[data-test="items"]').exists()).toBeTruthy()

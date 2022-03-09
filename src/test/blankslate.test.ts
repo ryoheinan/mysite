@@ -18,8 +18,8 @@ describe('BlankSlate component', () => {
   })
   it('aタグが正しく設定されているか', () => {
     expect(wrapper.find('a').exists()).toBeTruthy()
-    expect(wrapper.find('a').text()).toContain('リンク')
-    expect(wrapper.find('a').attributes().href).toContain('https://example.com')
+    expect(wrapper.find('a').text()).toBe('リンク')
+    expect(wrapper.find('a').attributes().href).toBe('https://example.com')
   })
   it('Snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot()
