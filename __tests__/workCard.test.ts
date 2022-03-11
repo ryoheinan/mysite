@@ -63,10 +63,10 @@ describe('WorkCard component', () => {
   it('urlが正しく設定されているか', () => {
     const buttons = wrapper.findAll('a')
     expect(buttons).toHaveLength(2)
-    expect(buttons.at(0)?.attributes().href).toBe('https://example.com/client')
-    expect(buttons.at(1)?.attributes().href).toBe('https://example.com/backend')
-    expect(buttons.at(0)?.text()).toBe('Source code (client)')
-    expect(buttons.at(1)?.text()).toBe('Source code (backend)')
+    expect(buttons[0].attributes().href).toBe('https://example.com/client')
+    expect(buttons[1].attributes().href).toBe('https://example.com/backend')
+    expect(buttons[0].text()).toBe('Source code (client)')
+    expect(buttons[1].text()).toBe('Source code (backend)')
   })
   it('Snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot()
