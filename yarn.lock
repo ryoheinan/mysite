@@ -2313,10 +2313,10 @@ v8-to-istanbul@^8.0.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
-vite-plugin-webfont-dl@^1.0.7:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-1.0.9.tgz#c6c85e0d11013945d318f74b0ccbc9fafbbae6b6"
-  integrity sha512-92O20YNskCfm1iM9q8JYf7ldjQp/JM8vyeKRLKlYPd6SD07+TqEpodne1t0iNc8bPwt3T3nqghOO6ICSESK09A==
+vite-plugin-webfont-dl@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-webfont-dl/-/vite-plugin-webfont-dl-2.0.0.tgz#8ccfa41757d6a248e785b9007c413f00d3c62435"
+  integrity sha512-7a1/ZsNMvaH+kMod1b/WNTpQQw8TsO7qMijzq0cwsmHB/EdpIFUI4FiE6DPEq2OXj+buznL6YF48xUtFHuKRtQ==
   dependencies:
     axios "^0.25"
 

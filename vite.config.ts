@@ -10,14 +10,5 @@ export default defineConfig({
       scss: { charset: false },
     },
   },
-  plugins: [
-    vue(),
-    ViteWebfontDownload([
-      'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap',
-    ]),
-  ],
-  test: {
-    globals: true,
-    environment: 'happy-dom',
-  },
+  plugins: [vue(), ViteWebfontDownload()],
 })
