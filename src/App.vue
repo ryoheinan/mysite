@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { computed } from 'vue'
-  import { Head } from '@vueuse/head'
+  import { useHead, Head } from '@vueuse/head'
   import Profile from './components/Profile.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
@@ -16,6 +16,16 @@
     title: 'チェックする!',
     url: 'https://speakerdeck.com/ryoheinan/zi-ji-shao-jie-suraido',
   }
+
+  useHead({
+    script: [
+      {
+        src: 'https://static.cloudflareinsights.com/beacon.min.js',
+        defer: true,
+        dataCfBeacon: `{"token": ${import.meta.env.VITE_ANALYTICS_TOKEN}}`,
+      },
+    ],
+  })
 </script>
 
 <template>
