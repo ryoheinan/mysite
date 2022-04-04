@@ -22,7 +22,7 @@
       {
         src: 'https://static.cloudflareinsights.com/beacon.min.js',
         defer: true,
-        dataCfBeacon: `{"token": ${import.meta.env.VITE_ANALYTICS_TOKEN}}`,
+        'data-cf-beacon': `{"token": ${import.meta.env.VITE_ANALYTICS_TOKEN}}`,
       },
     ],
   })
