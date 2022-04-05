@@ -27,7 +27,7 @@ export const workData: Work[] = [
     category: 'School',
     year: '2021 summer ~ beginning of 2022 ',
     image: {
-      src: 'eshoku.jpg',
+      src: 'eshoku.png',
       alt: 'an image of e-Shoku',
       srcset: 'eshoku.webp',
     },
