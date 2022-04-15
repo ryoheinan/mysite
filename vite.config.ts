@@ -1,4 +1,4 @@
-import { loadEnv, defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { ViteWebfontDownload } from 'vite-plugin-webfont-dl'
 import { createHtmlPlugin } from 'vite-plugin-html'
