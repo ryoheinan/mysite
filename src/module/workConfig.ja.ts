@@ -9,7 +9,7 @@ export const workData: Work[] = [
     category: 'School',
     year: '2021 夏 ~  2022 初頭',
     image: {
-      src: 'eshoku.jpg',
+      src: 'eshoku.png',
       alt: 'e-Shokuのwebアプリのスクリーンショット画像',
       srcset: 'eshoku.webp',
     },
