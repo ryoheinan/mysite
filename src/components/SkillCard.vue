@@ -10,10 +10,14 @@
 <template>
   <div class="Box text-center py-3" :class="styleName">
     <h3 class="mb-3">{{ title }}</h3>
-    <div>
-      <span v-for="item in items" :key="item.title" class="mx-1 nobreak">{{
-        item.title
-      }}</span>
+    <div data-test="items">
+      <span
+        v-for="item in items"
+        :key="item.title"
+        class="mx-1 nobreak"
+        data-test="item"
+        >{{ item.title }}</span
+      >
     </div>
   </div>
 </template>

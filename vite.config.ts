@@ -26,5 +26,9 @@ export default ({ mode }) => {
         },
       }),
     ],
+    test: {
+      globals: true,
+      environment: 'happy-dom',
+    },
   })
 }

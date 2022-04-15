@@ -14,10 +14,13 @@
     <div class="container-lg clearfix">
       <div class="col-md-6 float-left mb-2 mb-md-0">
         <p class="mb-1">
-          Powered by <span class="strong">{{ workData.technology }}</span>
+          Powered by
+          <span class="strong" data-test="technology">{{
+            workData.technology
+          }}</span>
         </p>
-        <p class="mb-3">{{ workData.year }}</p>
-        <p class="mb-2 text-gray-light description">
+        <p class="mb-3" data-test="year">{{ workData.year }}</p>
+        <p class="mb-2 text-gray-light description" data-test="description">
           {{ workData.description }}
         </p>
 

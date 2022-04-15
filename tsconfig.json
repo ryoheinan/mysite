@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
+    "types": ["vitest/globals"],
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
+    "skipLibCheck": true, // temporary change
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
