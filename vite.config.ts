@@ -21,7 +21,7 @@ export default ({ mode }) => {
             injectScript: `<script 
           defer='true'
           src='https://static.cloudflareinsights.com/beacon.min.js'
-           data-cf-beacon='{"token": ${process.env.VITE_ANALYTICS_TOKEN}}'></script>`,
+           data-cf-beacon='{"token": "${process.env.VITE_ANALYTICS_TOKEN}"}'></script>`,
           },
         },
       }),
