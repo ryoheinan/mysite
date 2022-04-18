@@ -70,11 +70,11 @@
             >
             <a
               class="btn btn-outline"
-              href="https://www.hackerrank.com/ryoheina"
+              href="https://www.linkedin.com/in/ryoheinan/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              HackerRank</a
+              LinkedIn</a
             >
           </div>
         </div>
