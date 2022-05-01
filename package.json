@@ -11,7 +11,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@primer/css": "^19.8.2",
+    "@primer/css": "^20.0.0",
     "@vueuse/head": "^0.7.6",
     "pinia": "^2.0.9",
     "rimraf": "^3.0.2",
