@@ -101,7 +101,7 @@
                 </li>
                 <li>
                   Pop<br />
-                  - Gen Hoshino, Hikaru Utada, Sakanaction...
+                  - Gen Hoshino, Hikaru Utada, Sakanaction, The Weeknd...
                 </li>
               </ul>
             </li>
