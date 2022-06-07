@@ -8,14 +8,9 @@
   import Contact from './components/Contact.vue'
   import Skill from './components/Skill.vue'
   import { useSettingsStore } from './stores/settings'
-  import Alert from './components/Alert.vue'
 
   const settings = useSettingsStore()
   const getLang = computed(() => settings.getLang)
-  const introSlideLink = {
-    title: 'チェックする!',
-    url: 'https://speakerdeck.com/ryoheinan/zi-ji-shao-jie-suraido',
-  }
 </script>
 
 <template>
@@ -24,12 +19,6 @@
   </Head>
   <Header />
   <main>
-    <Alert
-      v-if="getLang.lang == 'ja'"
-      msg="自己紹介スライド公開中!"
-      :link="introSlideLink"
-      class="mb-3"
-    />
     <Work class="mb-7" />
     <Profile class="mb-7" />
     <Skill class="mb-7" />
