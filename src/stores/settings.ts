@@ -8,7 +8,7 @@ interface getLangResult {
 }
 
 export const useSettingsStore = defineStore('settings', {
-  state: () => ({ lang: 'ja' as LangType }),
+  state: () => ({ lang: 'en' as LangType }),
   getters: {
     getLang(): getLangResult {
       const lang = this.lang

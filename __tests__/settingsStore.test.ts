@@ -7,16 +7,16 @@ describe('Settings store', () => {
     setActivePinia(createPinia())
   })
 
-  it('デフォルト（日本語）のPiniaのテスト', () => {
+  it('デフォルト（英語）のPiniaのテスト', () => {
     const settings = useSettingsStore()
-    expect(settings.getLang.lang).toBe('ja')
-    expect(settings.getLang.langText).toBe('日本語')
+    expect(settings.getLang.lang).toBe('en')
+    expect(settings.getLang.langText).toBe('English')
   })
 
   it('英語のPiniaのテスト', () => {
     const settings = useSettingsStore()
-    settings.lang = 'en'
-    expect(settings.getLang.lang).toBe('en')
-    expect(settings.getLang.langText).toBe('English')
+    settings.lang = 'ja'
+    expect(settings.getLang.lang).toBe('ja')
+    expect(settings.getLang.langText).toBe('日本語')
   })
 })

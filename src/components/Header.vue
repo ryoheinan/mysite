@@ -39,15 +39,15 @@
             </div>
             <ul>
               <li v-if="getLang.lang === 'en'">
-                <router-link class="dropdown-item" :to="{ name: 'index' }" exact
+                <router-link
+                  class="dropdown-item"
+                  :to="{ name: 'lang', params: { lang: 'ja' } }"
+                  exact
                   >日本語</router-link
                 >
               </li>
               <li v-else>
-                <router-link
-                  class="dropdown-item"
-                  :to="{ name: 'lang', params: { lang: 'en' } }"
-                  exact
+                <router-link class="dropdown-item" :to="{ name: 'index' }" exact
                   >English</router-link
                 >
               </li>
