@@ -18,10 +18,10 @@ router.beforeEach((to) => {
   // set lang setting via query param
   const lang = to.params.lang
   const settings = useSettingsStore()
-  if (lang === 'en') {
+  if (lang === 'ja') {
     settings.lang = lang
   } else {
-    settings.lang = 'ja'
+    settings.lang = 'en'
   }
 })
 
