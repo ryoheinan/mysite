@@ -13,7 +13,7 @@ exports[`WorkCard component (category: Hobby) > Snapshot 1`] = `
     <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
       <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
         <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\" /><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\" />
+          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
         </picture>
       </div>
     </div>
@@ -35,7 +35,7 @@ exports[`WorkCard component (category: School) > Snapshot 1`] = `
     <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
       <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
         <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\" /><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\" />
+          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
         </picture>
       </div>
     </div>
@@ -57,7 +57,7 @@ exports[`WorkCard component (category: Work) > Snapshot 1`] = `
     <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
       <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
         <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\" /><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\" />
+          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
         </picture>
       </div>
     </div>
