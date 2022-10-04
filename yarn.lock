@@ -458,10 +458,42 @@
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.2.tgz#0b5edd683366153d5bc5a91edc62f292118710eb"
   integrity sha512-E2P4oXSaWDqTZNbmKZFVLrNN/siVN78YkEqs7pHryWerrlZR9bBFLWdJwRoguX45Ru6HxIflzKl4vQvwRMwm5g==
 
-"@vueuse/head@^0.7.6":
-  version "0.7.9"
-  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.7.9.tgz#888ab87667ab6dbe6edba10d176fa91c1b0ec021"
-  integrity sha512-5wnRiH2XIUSLLXJDLDDTcpvAg5QXgTIVZl46AU7to/T91KHsdBLHSE4WhRO7kP0jbkAhlxnx64E29cQtwBrMjg==
+"@vueuse/head@^0.9.0":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.9.1.tgz#4ec08a629859384ee7e1c3927f9b698b9cc35676"
+  integrity sha512-ACh7tqGnf4c7gDjYdyUMftfqqDUsgMzgTNEP5WRxBviUnAwrp3CLo1z5ZapBaTZmRfhWZWAifPaMo1e/0XiKLg==
+  dependencies:
+    "@vueuse/shared" "^9.3.0"
+    "@zhead/schema" "^0.8.2"
+    "@zhead/schema-vue" "^0.8.2"
+
+"@vueuse/shared@^9.2.0", "@vueuse/shared@^9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.3.0.tgz#40fc138ba4e379c894075830aa2e15404aaa8a5b"
+  integrity sha512-caGUWLY0DpPC6l31KxeUy6vPVNA0yKxx81jFYLoMpyP6cF84FG5Dkf69DfSUqL57wX8JcUkJDMnQaQIZPWFEQQ==
+  dependencies:
+    vue-demi "*"
+
+"@zhead/schema-raw@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@zhead/schema-raw/-/schema-raw-0.8.2.tgz#310bebf7f9dd88830a1efb681447f90ea7d85453"
+  integrity sha512-9X23yFbsuGKYYIzsBJVE3R0+6sT2iio1NPIwv7fSyINAyJ1T82gsmVSZ6IugoqdLBQBXsS0VpTaTNgqKk4yK/A==
+  dependencies:
+    "@zhead/schema" "0.8.2"
+
+"@zhead/schema-vue@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@zhead/schema-vue/-/schema-vue-0.8.2.tgz#cb6ff6587d706cae30d85d70a9b32b49369e3e69"
+  integrity sha512-/MMcMs46iZVfQldWxaZZ7/2wT2EFAUMZqneoGkF2kfRP16F2q6qBuFDs3fdgkZH63UDUTTTfDUcOs56tXc8XFw==
+  dependencies:
+    "@vueuse/shared" "^9.2.0"
+    "@zhead/schema" "0.8.2"
+    "@zhead/schema-raw" "0.8.2"
+
+"@zhead/schema@0.8.2", "@zhead/schema@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@zhead/schema/-/schema-0.8.2.tgz#e8ba08d9e2f310aa1af5a5bdc571c26bd0fb2488"
+  integrity sha512-WDTmlI1tjQ/UlGKwL91kst/H5rCmVAOKRTXEkiSbvMzSWz1cGO24OljZ/2ai7DmWr/h/yF0jrmw/74zJe+yKqg==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
