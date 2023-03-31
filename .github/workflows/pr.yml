@@ -36,6 +36,9 @@ jobs:
       - name: Run Test 🔍
         run: yarn test
       
+      - name: Build 🧱
+        run: yarn build
+      
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
