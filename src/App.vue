@@ -4,9 +4,7 @@
   import Profile from './components/Profile.vue'
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
-  import Work from './components/Work.vue'
   import Contact from './components/Contact.vue'
-  import Skill from './components/Skill.vue'
   import { useSettingsStore } from './stores/settings'
 
   const settings = useSettingsStore()
@@ -19,9 +17,7 @@
   </Head>
   <Header />
   <main>
-    <Work class="mb-7" />
     <Profile class="mb-7" />
-    <Skill class="mb-7" />
     <Contact />
   </main>
   <Footer />
