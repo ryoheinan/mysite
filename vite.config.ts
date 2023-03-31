@@ -2,7 +2,6 @@ import { loadEnv } from 'vite'
 import { defineConfig } from 'vitest/config'
 
 import vue from '@vitejs/plugin-vue'
-import webfontDownload from 'vite-plugin-webfont-dl'
 import { createHtmlPlugin } from 'vite-plugin-html'
 
 export default defineConfig(({ mode }) => {
@@ -15,7 +14,6 @@ export default defineConfig(({ mode }) => {
       },
     },
     plugins: [
-      webfontDownload(),
       vue(),
       createHtmlPlugin({
         inject: {
