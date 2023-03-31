@@ -1,67 +1,67 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`WorkCard component (category: Hobby) > Snapshot 1`] = `
-"<div class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\" data-v-0f391d71=\\"\\">
-  <h3 class=\\"mb-2\\" data-v-0f391d71=\\"\\">すごい成果物</h3>
-  <div class=\\"container-lg clearfix\\" data-v-0f391d71=\\"\\">
-    <div class=\\"col-md-6 float-left mb-2 mb-md-0\\" data-v-0f391d71=\\"\\">
-      <p class=\\"mb-1\\" data-v-0f391d71=\\"\\"> Powered by <span class=\\"strong\\" data-test=\\"technology\\" data-v-0f391d71=\\"\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
-      <p class=\\"mb-3\\" data-test=\\"year\\" data-v-0f391d71=\\"\\">2021 夏 ~ 2022 初頭</p>
-      <p class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\" data-v-0f391d71=\\"\\">これは
-        説明です。</p><span title=\\"Label: Hobby\\" class=\\"Label Label--success v-align-middle\\" data-v-0f391d71=\\"\\">Hobby</span>
+"<div data-v-ce140071=\\"\\" class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\">
+  <h3 data-v-ce140071=\\"\\" class=\\"mb-2\\">すごい成果物</h3>
+  <div data-v-ce140071=\\"\\" class=\\"container-lg clearfix\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-left mb-2 mb-md-0\\">
+      <p data-v-ce140071=\\"\\" class=\\"mb-1\\"> Powered by <span data-v-ce140071=\\"\\" class=\\"strong\\" data-test=\\"technology\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-3\\" data-test=\\"year\\">2021 夏 ~ 2022 初頭</p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\">これは
+        説明です。</p><span data-v-ce140071=\\"\\" title=\\"Label: Hobby\\" class=\\"Label Label--success v-align-middle\\">Hobby</span>
     </div>
-    <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
-      <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
-        <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-md-left\\">
+      <div data-v-ce140071=\\"\\" class=\\"img text-center\\">
+        <picture data-v-ce140071=\\"\\">
+          <source data-v-ce140071=\\"\\" type=\\"image/webp\\" srcset=\\"/img/work.webp\\"><img data-v-ce140071=\\"\\" class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\">
         </picture>
       </div>
     </div>
   </div>
-  <div class=\\"mt-3\\" data-v-0f391d71=\\"\\"><a href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (client)</a><a href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (backend)</a></div>
+  <div data-v-ce140071=\\"\\" class=\\"mt-3\\"><a data-v-ce140071=\\"\\" href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (client)</a><a data-v-ce140071=\\"\\" href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (backend)</a></div>
 </div>"
 `;
 
 exports[`WorkCard component (category: School) > Snapshot 1`] = `
-"<div class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\" data-v-0f391d71=\\"\\">
-  <h3 class=\\"mb-2\\" data-v-0f391d71=\\"\\">すごい成果物</h3>
-  <div class=\\"container-lg clearfix\\" data-v-0f391d71=\\"\\">
-    <div class=\\"col-md-6 float-left mb-2 mb-md-0\\" data-v-0f391d71=\\"\\">
-      <p class=\\"mb-1\\" data-v-0f391d71=\\"\\"> Powered by <span class=\\"strong\\" data-test=\\"technology\\" data-v-0f391d71=\\"\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
-      <p class=\\"mb-3\\" data-test=\\"year\\" data-v-0f391d71=\\"\\">2021 夏 ~ 2022 初頭</p>
-      <p class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\" data-v-0f391d71=\\"\\">これは
-        説明です。</p><span title=\\"Label: School\\" class=\\"Label mt-1 Label--info v-align-middle\\" data-v-0f391d71=\\"\\">School</span>
+"<div data-v-ce140071=\\"\\" class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\">
+  <h3 data-v-ce140071=\\"\\" class=\\"mb-2\\">すごい成果物</h3>
+  <div data-v-ce140071=\\"\\" class=\\"container-lg clearfix\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-left mb-2 mb-md-0\\">
+      <p data-v-ce140071=\\"\\" class=\\"mb-1\\"> Powered by <span data-v-ce140071=\\"\\" class=\\"strong\\" data-test=\\"technology\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-3\\" data-test=\\"year\\">2021 夏 ~ 2022 初頭</p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\">これは
+        説明です。</p><span data-v-ce140071=\\"\\" title=\\"Label: School\\" class=\\"Label mt-1 Label--info v-align-middle\\">School</span>
     </div>
-    <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
-      <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
-        <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-md-left\\">
+      <div data-v-ce140071=\\"\\" class=\\"img text-center\\">
+        <picture data-v-ce140071=\\"\\">
+          <source data-v-ce140071=\\"\\" type=\\"image/webp\\" srcset=\\"/img/work.webp\\"><img data-v-ce140071=\\"\\" class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\">
         </picture>
       </div>
     </div>
   </div>
-  <div class=\\"mt-3\\" data-v-0f391d71=\\"\\"><a href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (client)</a><a href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (backend)</a></div>
+  <div data-v-ce140071=\\"\\" class=\\"mt-3\\"><a data-v-ce140071=\\"\\" href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (client)</a><a data-v-ce140071=\\"\\" href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (backend)</a></div>
 </div>"
 `;
 
 exports[`WorkCard component (category: Work) > Snapshot 1`] = `
-"<div class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\" data-v-0f391d71=\\"\\">
-  <h3 class=\\"mb-2\\" data-v-0f391d71=\\"\\">すごい成果物</h3>
-  <div class=\\"container-lg clearfix\\" data-v-0f391d71=\\"\\">
-    <div class=\\"col-md-6 float-left mb-2 mb-md-0\\" data-v-0f391d71=\\"\\">
-      <p class=\\"mb-1\\" data-v-0f391d71=\\"\\"> Powered by <span class=\\"strong\\" data-test=\\"technology\\" data-v-0f391d71=\\"\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
-      <p class=\\"mb-3\\" data-test=\\"year\\" data-v-0f391d71=\\"\\">2021 夏 ~ 2022 初頭</p>
-      <p class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\" data-v-0f391d71=\\"\\">これは
-        説明です。</p><span title=\\"Label: Work\\" class=\\"Label mt-1 Label--warning v-align-middle\\" data-v-0f391d71=\\"\\">Work</span>
+"<div data-v-ce140071=\\"\\" class=\\"Box px-md-3 px-2 mb-3 pt-5 pb-1\\">
+  <h3 data-v-ce140071=\\"\\" class=\\"mb-2\\">すごい成果物</h3>
+  <div data-v-ce140071=\\"\\" class=\\"container-lg clearfix\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-left mb-2 mb-md-0\\">
+      <p data-v-ce140071=\\"\\" class=\\"mb-1\\"> Powered by <span data-v-ce140071=\\"\\" class=\\"strong\\" data-test=\\"technology\\">Vue 3, TypeScript, Django Rest Framework, PostgreSQL</span></p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-3\\" data-test=\\"year\\">2021 夏 ~ 2022 初頭</p>
+      <p data-v-ce140071=\\"\\" class=\\"mb-2 text-gray-light description\\" data-test=\\"description\\">これは
+        説明です。</p><span data-v-ce140071=\\"\\" title=\\"Label: Work\\" class=\\"Label mt-1 Label--warning v-align-middle\\">Work</span>
     </div>
-    <div class=\\"col-md-6 float-md-left\\" data-v-0f391d71=\\"\\">
-      <div class=\\"img text-center\\" data-v-0f391d71=\\"\\">
-        <picture data-v-0f391d71=\\"\\">
-          <source type=\\"image/webp\\" srcset=\\"/img/work.webp\\" data-v-0f391d71=\\"\\"><img class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\" data-v-0f391d71=\\"\\">
+    <div data-v-ce140071=\\"\\" class=\\"col-md-6 float-md-left\\">
+      <div data-v-ce140071=\\"\\" class=\\"img text-center\\">
+        <picture data-v-ce140071=\\"\\">
+          <source data-v-ce140071=\\"\\" type=\\"image/webp\\" srcset=\\"/img/work.webp\\"><img data-v-ce140071=\\"\\" class=\\"img\\" alt=\\"workのスクリーンショット画像\\" src=\\"/img/work.jpg\\">
         </picture>
       </div>
     </div>
   </div>
-  <div class=\\"mt-3\\" data-v-0f391d71=\\"\\"><a href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (client)</a><a href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-0f391d71=\\"\\">Source code (backend)</a></div>
+  <div data-v-ce140071=\\"\\" class=\\"mt-3\\"><a data-v-ce140071=\\"\\" href=\\"https://example.com/client\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (client)</a><a data-v-ce140071=\\"\\" href=\\"https://example.com/backend\\" class=\\"btn mr-2 mb-2\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Source code (backend)</a></div>
 </div>"
 `;

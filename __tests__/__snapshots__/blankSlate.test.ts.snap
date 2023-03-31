@@ -1,7 +1,7 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`BlankSlate component > Snapshot 1`] = `
-"<div class=\\"blankslate\\" data-v-f296d756=\\"\\"><a href=\\"https://example.com\\" class=\\"btn btn-large btn-primary h4 mb-1 py-3\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" data-v-f296d756=\\"\\">リンク</a>
-  <p data-v-f296d756=\\"\\">これは説明です。</p>
+"<div data-v-7a4aeca6=\\"\\" class=\\"blankslate\\"><a data-v-7a4aeca6=\\"\\" href=\\"https://example.com\\" class=\\"btn btn-large btn-primary h4 mb-1 py-3\\" role=\\"button\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">リンク</a>
+  <p data-v-7a4aeca6=\\"\\">これは説明です。</p>
 </div>"
 `;

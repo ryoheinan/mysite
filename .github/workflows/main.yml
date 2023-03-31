@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [16]
+        node: [18]
 
     steps:
       - name: Checking for .DS_Store files 👮
@@ -35,3 +35,15 @@ jobs:
 
       - name: Run Test 🔍
         run: yarn test
+ 
+      - name: Build 🧱
+        run: yarn build
+      
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'mysite'
+          directory: 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
